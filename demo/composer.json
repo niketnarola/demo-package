@@ -1,0 +1,21 @@
+{
+    "name": "ssn/demo",
+    "description": "A demo package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sreerag",
+            "email": "ssn@narola.email"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ssn\\Demo\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "orchestra/testbench": "^8.0"
+    }
+}

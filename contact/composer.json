@@ -1,0 +1,19 @@
+{
+    "name": "ssn/contact",
+    "description": "Used to send the message",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ssn\\Contact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sreerag",
+            "email": "ssn@narola.email"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
